@@ -1,5 +1,6 @@
 import React from 'react'
 
+//new comment for checking purpose
 const TheirMessage = ({lastMessage, message}) => {
     const isFirstMessageByUser = !lastMessage || lastMessage.sender.username !== message.sender.username
 
