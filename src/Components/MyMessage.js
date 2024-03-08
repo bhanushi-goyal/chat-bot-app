@@ -1,10 +1,19 @@
 import React from 'react'
 
-function MyMessage() {
+const MyMessage = ({message}) => {
+
+    // const [attachments, setAttachments] = useState([])
+
+    if(message.attachments && message.attachments.length > 0){
+        
+        return(
+            <img src={message.attachments[0].file} alt='attachment' />
+        )
+    }
 
     return (
 
-        <div>This is my message.</div>
+        <div>{message.text}</div>
     )
 }
 
