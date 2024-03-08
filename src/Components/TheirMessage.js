@@ -14,9 +14,9 @@ const TheirMessage = ({lastMessage, message}) => {
                 (
                     <img src={message.attachments[0].file} alt="message-attachment" />
                 )
-                
+
                 :
-                
+
                 (
                     <div>{message.text}</div>
                 )
