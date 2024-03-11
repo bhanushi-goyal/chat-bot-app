@@ -60,9 +60,11 @@ function MyFeed(props){
             </div>
             {renderMessages()}
             <div className=" h-20" />
-            <div>
-                {/* <MessageForm {...props} chatId={activeChats} /> */}
-            </div>
+
+            {/* <div>
+                <MessageForm {...props} chatId={activeChats} />
+            </div> */}
+
         </div>
     )
 }
