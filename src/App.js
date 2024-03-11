@@ -7,9 +7,9 @@ import MyMessage from "./Components/MyMessage"
 import TheirMessage from "./Components/TheirMessage"
 
 function App() {
-  
+
   return (
-    
+
     <div>
       <BrowserRouter>
         <Routes>
